@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/home.css">
+    <title>Sabiá</title>
+</head>
+
+<body onscroll="showHeader()">
+    <h1 class="sabia-semantico">Sabiá, Quem São</h1>
+    <div class="container">
+        <section class="main" id="main"> 
+            <section class="header">
+                    <nav class="menu">
+                        <div class="sabia-menu">
+                            <a class="menu-list-link" href="#main"><img src="./img/sabia-header.png" class="sabia-menu-img" href="#main"></a>
+                        </div>
+                        <div class="ul-menu">
+                           <ul class="menu-list">
+                                <li class="menu-list-item"><a class="menu-list-link" href="#quemsao">QUEM&nbsp;SÃO</a></li>
+                                <li class="menu-list-item"><a class="menu-list-link" href="#discog">MÚSICA</a></li>
+                                <li class="menu-list-item"><a class="menu-list-link" href="#contact">CONTATO</a></li>                    
+                            </ul>
+                        </div>
+                    </nav>
+            </section>
+            <div class="main-slider">
+                <slider class="slider-container" id="sliderContainer">
+                    <slide class="slider-item" id="slide-1">
+                        <div class="slider-img-container">
+                            <img class="slider-img" src="./img/logo_sabia_branco.png" alt="">
+                        </div>
+                        <div class="slider-info-container"></div>
+                    </slide>
+                </slider>
+            </div>
+        </section>
+        <section class="quemsao" id="quemsao">
+            <div class="text-quemsao" data-anime="right"> 
+                <p class="text-padrao">
+                    A Sabiá, Quem São envolta na suavidade de sua composição e musicalidade nos convida, desde 2013, à conviver com o verdadeiro e intenso sentimento das manifestações artísticas.Transitando pela poesia e pelo teatro, remontando à música advinda da cultura brasileira e à uma mistura de inspiração, do ser e reconhecer, no qual a música consegue agrupar e difundir. Sendo um espetáculo traduzido em nota e harmonia elencado em diversos instrumentos, atuação e uma leve voz, que tornam à todos uma constante troca, por ora bonito e intenso, envolto numa tímida cerne, que cresce e nos permite integrar. A primeira experiência sonora da Sabiá foi iniciada em 2014, com as gravações do primeiro álbum "Aos Nossos Olhos", desenvolvido de forma artesanal, a fim de declarar o momento de formação que vivenciavam, assim como propagar um desafio à eles e à nós.
+                </p>
+            </div>
+        </section>
+        <section class="banda">
+            <div class="grid-banda">
+                <div class="grid-item" data-anime="left">
+                    <div class="grid-img marcos-icon"></div>
+                    <div class="grid-name">
+                        <p>Marcos Brasil</p>
+                    </div>
+                    <div class="grid-text">
+                        <p>Trombone - Teclas - Vozes</p>
+                    </div>
+                </div>
+                <div class="grid-item" data-anime="top">
+                    <div class="grid-img lucas-icon"></div>
+                    <div class="grid-name">
+                        <p>Lucas Lacerda</p>
+                    </div>
+                    <div class="grid-text">
+                        <p>Violão - Guitarra - Vozes</p>
+                    </div>
+                </div>
+                <div class="grid-item" data-anime="right">
+                    <div class="grid-img christian-icon"></div>
+                    <div class="grid-name">
+                        <p>Christian Lauerman</p>
+                    </div>
+                    <div class="grid-text">
+                        <p>Baixo - Vozes</p>
+                    </div>
+                </div>
+                <div class="grid-item" data-anime="left">
+                    <div class="grid-img ramiro-icon"></div>
+                    <div class="grid-name">
+                        <p>Ramiro Machado</p>
+                    </div>
+                    <div class="grid-text">
+                        <p>Guitarra</p>
+                    </div>
+                </div>
+                <div class="grid-item" data-anime="bottom">
+                    <div class="grid-img gabriel-icon"></div>
+                    <div class="grid-name">
+                        <p>Gabriel da Rosa</p>
+                    </div>
+                    <div class="grid-text">
+                        <p>Bateria - Percussões</p>
+                    </div>
+                </div>
+                <div class="grid-item" data-anime="right">
+                    <div class="grid-img ruan-icon"></div>
+                    <div class="grid-name">
+                        <p>Ruan da Rosa</p>
+                    </div>
+                    <div class="grid-text">
+                        <p>Trompete - Vozes</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="discog" id="discog">
+            <div class="disco-item">
+                <div class="disco-img-container">
+                    <img class="disco-img" src="./img/capa_frente_leve.png" alt="">
+                </div>
+                <div class="disco-info-container">
+                    <h2 class="disco-title">Ouça nosso single!</h2>
+                    <a class="disco-link" href="" target="_blank"><img class="disco-link-img" src="./img/spotify-connect.png" alt=""></a>
+                </div>     
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <div class="contact-bird-img">
+                    <img src="./img/birds.png" alt="sabiazin" class="bird-img">
+                </div>
+                <div class="contact-form">
+                    <form action="http://sabiaquemsao.surge.sh/">
+                        <label for="nome">nome</label>
+                        <input type="text" name="nome">
+                        <label for="email">email</label>
+                        <input type="text" name="email">
+                        <label for="mensagem">mensagem</label>
+                        <textarea type="text" cols="38" rows="5" name="mensagem"></textarea>
+                        <input id="send-button" type="submit" value="Enviar">
+                    </form>
+                </div>
+            <div id="filter-contact" class=""></div>
+            <div id="image-background-contact" class=""></div>
+            </div>
+        </section>
+        <section class="footer" id="footer">
+            <div class="sabia-footer">
+                <img src="./img/logo_sabia_branco.png" alt="" class="sabia-footer-img">
+            </div>
+            <div class="footer-contact">
+                <div class="contact-item">
+                    <a class="contact-link" href="" target="_blank"><img src="./img/facebook-logo.png" alt="" class="contact-img"></a>
+                </div>
+                <div class="contact-item">
+                <a class="contact-link" href="https://www.instagram.com/sabiaquem/" target="_blank"><img src="./img/instagram-logo.png" alt="" class="contact-img"></a>
+                </div>
+                <div class="contact-item">
+                    <a class="contact-link" href="" target="_blank"><img src="./img/spotify-logo.png" alt="" class="contact-img"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
